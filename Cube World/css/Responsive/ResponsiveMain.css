@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Responsive Main */
+
+@media only screen and (max-width: 1600px)
+{
+	.hamburger_container
+    {
+        display: none;
+    }
+    .logo_container
+	{
+		padding-left: 30px;
+	}
+    .card-body
+    {
+        padding-bottom: 60px;
+    }
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 1380px)
+{
+	.header
+	{
+		width: 1200px;
+	}
+	.header_content
+	{
+		width: calc(100% - 219px);
+	}
+	.main_nav_container
+	{
+		padding-right: 63px;
+	}
+	.header_side
+	{
+		width: 219px;
+	}
+	.header_side span
+	{
+		font-size: 14px;
+	}
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 1280px)
+{
+	.header
+	{
+		width: 90%;
+	}
+	.header_content
+	{
+		width: 100%;
+	}
+	.header_side
+	{
+		display: none !important;
+	}
+    .hero_box_content h2
+    {
+        font-size: 24px;
+    }
+	.main_nav_container
+	{
+		padding-right: 53px;
+	}
+    .home_logo_content h1
+	{
+		font-size: 56px;
+	}
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 1024px)
+{
+	.main_nav_item
+	{
+		margin-right: 33px;
+	}
+}
+
+/*****************************************/
+
+@media (min-width: 992px)
+{
+    .hero_box_col, .sidebar_col, .types_col, .about_col
+    {
+        flex:0 0 33.333333%;
+        max-width:33.333333%;
+    }
+    .brands_specific_col, .types_specific_col
+    {
+        flex:0 0 50%;
+        max-width:50%;
+    }
+    .news_col, .contact_col
+    {
+        flex:0 0 66.666667%;
+        max-width:66.666667%;
+    }   .brand_description_container:nth-last-child(2)
+    {
+        border-bottom: none;
+    }
+}
+
+/*****************************************/
+
+@media (min-width: 750px)
+{
+    .footer_col
+    {
+        flex:0 0 25%;
+        max-width:25%;
+    }
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 991px)
+{
+	.main_nav_container
+	{
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.subscribe_email_container
+	{
+		width: 90%;
+	}
+	.footer_coll_switch
+	{
+		margin-bottom: 30px;
+	}
+	.footer_coll_switch:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.home_logo_content h1
+	{
+		font-size: 48px;
+	}
+    .home_index
+    {
+        display: none;
+    }
+    .about
+	{
+		margin-top: 40px;
+	}
+}
+
+/*****************************************/
+
+@media (min-width: 768px)
+{
+    .flex-md-row, .subscribe_email
+    {
+        flex-direction:row !important;
+    }
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 767px)
+{
+	.newsletter_email
+	{
+		width: 100%;
+	}
+	.subscribe_submit_btn
+	{
+		margin-top: 15px;
+	}
+    .brand_text
+    {
+        margin-top: 25px;
+    }
+}
+
+/*****************************************/
+
+@media (min-width: 576px)
+{
+    .flex-sm-row, .news_post_top
+    {
+        flex-direction:row !important;
+    }
+    .brands_col
+    {
+        flex:0 0 33.333333%;
+        max-width:33.333333%;
+    }
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 575px)
+{
+	h1{font-size: 24px;}
+	p{font-size:13px;}
+	.header
+	{
+		height: 74px;
+	}
+	.hamburger_container
+	{
+		right: 5px;
+	}
+    .footer_bar
+	{
+		padding-top: 49px;
+		padding-bottom: 52px;
+	}
+    .home_logo_content
+	{
+		max-width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    .news_post_title_container, .news_post_text
+    {
+        top: -20px;
+    }
+    .brand_descriptions
+    {
+        padding-top: 0px;
+    }
+    .brand_text
+    {
+        margin-top: 25px;
+    }
+    .card-body
+    {
+        padding-bottom: 30px;
+    }
+    .brands
+    {
+        padding-bottom: 30px;
+    }
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 479px)
+{
+	.header
+	{
+		height: 60px;
+		top: 15px;
+	}
+    .logo_container
+	{
+		padding-left: 25px;
+	}
+	.logo img
+	{
+		width: 30px;
+	}
+	.logo span
+	{
+		font-size: 16px;
+	}
+    .closebtn
+    {
+        left: 180px;
+    }
+    .home_logo_content h1
+	{
+		font-size: 28px;
+	}
+    .home_other
+    {
+        height: 100px;
+    }
+    .home_logo_container div h1
+    {
+        display: none;
+    }
+    .brand_text
+    {
+        margin-top: 15px;
+    }
+    .hero_box_content h2
+    {
+        font-size: 16px;
+    }
+    .contact_form div:first-child, .about div:first-child
+    {
+        font-size: 25px;
+    }
+}

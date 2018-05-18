@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*********************************
+1. Brands
+*********************************/
+
+.brands
+{
+    padding-top: 30px;
+    border-bottom: 5px solid #660066;
+}
+.brands_col
+{
+	margin-bottom: 35px;
+}
+.brands_col:last-child
+{
+	margin-bottom: 0px;
+}
+.card:hover .card-img-top
+{
+	opacity: 0.6;
+}
+.card:hover .card_plus
+{
+	visibility: visible;
+	opacity: 1;
+	transform: translate(-50%, -50%) scale(1);
+}
+.card_plus
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.5);
+	width: 75px;
+	background: #ffb606;
+	z-index: 5;
+	visibility: hidden;
+	opacity: 0;
+    transition: all 200ms ease;
+    text-align:center!important;
+    cursor: pointer;
+}
+.card_plus a
+{
+	display: block;
+	font-size: 24px;
+	line-height: 75px;
+	color: #FFFFFF;
+}
+.card-body
+{
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+    text-align:center!important;
+    border-top:3px solid #f29635;
+    background-color: beige;
+}
+.card-title
+{
+	margin-top: 55px;
+}
+.card-title a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #1a1a1a;
+	line-height: 1.2;
+}
+.card-title a:hover
+{
+	color: #a5a5a5;
+}
+.card-text
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #a5a5a5;
+	margin-top: -7px;
+}
+.card_img
+{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.brand_descriptions
+{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.brand_title h1
+{
+	display: block;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+.brand_text
+{
+	font-weight: 500;
+	color: #a5a5a1;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.brand_description_container
+{
+    margin-top: 20px;
+    border-bottom: 3px solid #f29635;
+}
+.brand_description_container:last-child
+{
+    border-bottom: none;
+}

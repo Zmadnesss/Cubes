@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Brands */
+
+@media only screen and (max-width: 1280px)
+{
+	.card-title
+	{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 575px)
+{
+	.card-title
+	{
+		margin-top: 30px;
+	}
+	.card-title a
+	{
+		font-size: 20px;
+	}
+	.card-text
+	{
+		font-size: 13px;
+	}
+}

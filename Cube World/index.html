@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cube World - Home</title>
+<link rel="stylesheet" type="text/css" href="css/Styling/IndexStyles.css">
+<link rel="stylesheet" type="text/css" href="css/Responsive/IndexResponsive.css">
+<link rel="stylesheet" type="text/css" href="css/Styling/StylingMain.css">
+<link rel="stylesheet" type="text/css" href="css/Responsive/ResponsiveMain.css">
+</head>
+<body>
+<div class="super_container">
+
+	<!-- Header -->
+	<header class="header">
+		<div class="header_content">
+		
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/rubik.svg" alt="Logo">
+					<span>Cube world</span>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item active"><a href="#">home</a></li>
+						<li class="main_nav_item"><a href="history.html">history</a></li>
+						<li class="main_nav_item"><a href="brands.html">brands</a></li>
+						<li class="main_nav_item"><a href="types.html">types</a></li>
+						<li class="main_nav_item"><a href="contact.html">contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+		<div class="header_side">
+			<span>Also on Mobile!</span>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+            <span onclick="openNav()">
+            <img src="images/hamburger.svg" alt="Menu"></span>
+		</div>
+		
+	</header>
+	
+	<!-- Side Navigation -->
+	<div id="mySidenav" class="sidenav">
+       <div class="fixedSidenav">
+       
+            <!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/rubik.svg" alt="Logo">
+					<span>Cube world</span>
+				</div>
+			</div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="history.html">History</a></li>
+               <li><a href="brands.html">Brands</a></li>
+               <li><a href="types.html">Types</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+        
+        </div>
+    </div>
+	
+	<!-- Home --> 
+	<div class="home_index">
+		<div class="home_container">
+			<div class="home_logo">
+				<div class="home_container_background" style="background-image:url(images/HistoryBackground.jpg)"></div>
+				<div class="home_logo_container">
+					<div class="home_logo_content">
+						<h1>Cube World</h1>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+
+    <!-- Hero Boxes -->
+	<div class="hero_boxes">
+       <div class="hero_container_background" style="background-image:url(images/HistoryBackground.jpg)"></div>
+       <div class="hero_boxes_inner">
+			<div class="container">
+				<div class="row">
+
+                <!-- Hero Box -->
+					<div class="hero_box_col hero_box_col_switch">
+						<div class="hero_box">
+							<img src="images/globe.svg" alt="Types">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">Recent Cubes</h2>
+								<a href="types.html" class="hero_box_link">view more</a>
+							</div>
+						</div>
+					</div>
+
+                <!-- Hero Box -->
+					<div class="hero_box_col hero_box_col_switch">
+						<div class="hero_box">
+							<img src="images/books.svg" alt="Types">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">The Collection</h2>
+								<a href="types.html" class="hero_box_link">view more</a>
+							</div>
+						</div>
+					</div>
+
+                <!-- Hero Box -->
+					<div class="hero_box_col hero_box_col_switch">
+						<div class="hero_box">
+							<img src="images/professor.svg" alt="Records">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">World records</h2>
+								<a href="history.html" class="hero_box_link">view more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Subscribe -->
+
+			<div class="subscribe">
+			
+				<div class="subscribe_row">
+					<div class="subscribe_col">
+						<div class="subscribe_title">
+							<h1>Subscribe to recieve weekly updates</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="subscribe_row">
+					<div class="subscribe_col_center">
+						<div class="subscribe_email_container">
+							<form action="post">
+								<div class="subscribe_email">
+									<input id="newsletter_email" class="newsletter_email" 
+									type="email" 
+									placeholder="Email Address" 
+									required="required" 
+									data-error="Valid email is required.">
+									<button id="subscribe_submit" type="submit" class="subscribe_submit_btn" value="Submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="footer_row">
+
+					<!-- Footer Column - About -->
+					
+					<div class="footer_col footer_col_switch">
+
+						<!-- Logo -->
+						
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/rubik.svg" alt="Logo">
+								<span>Cube World</span>
+							</div>
+						</div>
+						<p class="footer_about_text">Check out "Magic Puzzle Pro" on Android for a 3D view of all cubes</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="footer_col footer_col_switch">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="#">Home</a></li>
+								<li class="footer_list_item"><a href="history.html">History</a></li>
+								<li class="footer_list_item"><a href="brands.html">Brands</a></li>
+								<li class="footer_list_item"><a href="types.html">Types</a></li>
+								<li class="footer_list_item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="footer_col footer_col_switch">
+						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="types.html">Algoritms</a></li>
+								<li class="footer_list_item"><a href="history.html">FAQ</a></li>
+								<li class="footer_list_item"><a href="history.html">Community</a></li>
+								<li class="footer_list_item"><a href="contact.html">Magic Puzzle Pro</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="footer_col footer_col_switch">
+						<div class="footer_column_title">Contact</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/location.svg" alt="Location">
+									</div>2850 Boom, Schommelei 1
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/mail.svg" alt="E-Mail">
+									</div>vince-canyon@hotmail.com
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar">
+				<div class="footer_copyright">
+				    Copyright template personalised! Special thanks to Eri Mehmeti, Full Stack Academy, w3Schools, iappletech128, Colorlib.
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+	
+</div>
+
+<script>   
+function openNav() 
+    {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+function closeNav() 
+    {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</body>
+</html>
